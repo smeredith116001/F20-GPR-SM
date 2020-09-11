@@ -56,7 +56,6 @@ void testVector()
 int main(int const argc, char const* const argv[])
 {
 	testVector();
-
 	printf("\n\n");
 	system("pause");
 }
