@@ -1,3 +1,12 @@
+/*
+	rtweekend.h
+	Code sourced from Ray Tracing in One Weekend Peter Shirley
+	edited by Steve Hollasch and Trevor David Black
+
+	Modified by: ____________
+	Modified because: ____________
+*/
+
 #ifndef RTWEEKEND_H
 #define RTWEEKEND_H
 

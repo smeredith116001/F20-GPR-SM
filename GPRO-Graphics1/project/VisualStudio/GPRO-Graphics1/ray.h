@@ -1,3 +1,12 @@
+/*
+    ray.h
+    Code sourced from Ray Tracing in One Weekend Peter Shirley
+    edited by Steve Hollasch and Trevor David Black
+
+    Modified by: ____________
+    Modified because: ____________
+*/
+
 #ifndef RAY_H
 #define RAY_H
 

@@ -1,3 +1,12 @@
+/*
+    sphere.h
+    Code sourced from Ray Tracing in One Weekend Peter Shirley
+    edited by Steve Hollasch and Trevor David Black
+
+    Modified by: ____________
+    Modified because: ____________
+*/
+
 #ifndef SPHERE_H
 #define SPHERE_H
 
@@ -18,16 +27,16 @@ public:
 };
 
 bool sphere::hit(const ray& r, double t_min, double t_max, hit_record& rec) const {
-    vec3 oc = r.origin() - center;
-    auto a = r.direction().length_squared();
-    auto half_b = dot(oc, r.direction());
-    auto c = oc.length_squared() - radius * radius;
-    auto discriminant = half_b * half_b - a * c;
+    double oc = r.origin() - center;
+    double a = r.direction().length_squared();
+    float half_b = dot(oc, r.direction());
+    double c = oc.length_squared() - radius * radius;
+    double discriminant = half_b * half_b - a * c;
 
     if (discriminant > 0) {
-        auto root = sqrt(discriminant);
+        float root = sqrt(discriminant);
 
-        auto temp = (-half_b - root) / a;
+        double temp = (-half_b - root) / a;
         if (temp < t_max && temp > t_min) {
             rec.t = temp;
             rec.p = r.at(rec.t);

@@ -1,3 +1,12 @@
+/*
+    hitable_list.h
+    Code sourced from Ray Tracing in One Weekend Peter Shirley
+    edited by Steve Hollasch and Trevor David Black
+
+    Modified by: ____________
+    Modified because: ____________
+*/
+
 #ifndef HITTABLE_LIST_H
 #define HITTABLE_LIST_H
 
@@ -27,7 +36,7 @@ public:
 bool hittable_list::hit(const ray& r, double t_min, double t_max, hit_record& rec) const {
     hit_record temp_rec;
     bool hit_anything = false;
-    auto closest_so_far = t_max;
+    double closest_so_far = t_max;
 
     for (const auto& object : objects) {
         if (object->hit(r, t_min, closest_so_far, temp_rec)) {
