@@ -21,11 +21,11 @@
 	Modified by: ____________
 	Modified because: ____________
 */
+//includes
 #include "rtweekend.h"
 #include "color.h"
 #include "hittable_list.h"
 #include "sphere.h"
-
 #include <iostream>
 color ray_color(const ray& r, const hittable& world) {
     hit_record rec;

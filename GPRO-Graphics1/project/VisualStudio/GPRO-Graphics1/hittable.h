@@ -9,9 +9,9 @@
 
 #ifndef HITTABLE_H
 #define HITTABLE_H
-
+//includes
 #include "ray.h"
-
+//Creates hit function that will take a ray
 struct hit_record {
     point3 p;
     vec3 normal;

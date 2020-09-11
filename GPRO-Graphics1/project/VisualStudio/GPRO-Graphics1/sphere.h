@@ -9,10 +9,10 @@
 
 #ifndef SPHERE_H
 #define SPHERE_H
-
+//includes
 #include "hittable.h"
 #include "vec3.h"
-
+//Class for spheres being able to be hit by rays
 class sphere : public hittable {
 public:
     sphere() {}
@@ -25,7 +25,7 @@ public:
     point3 center;
     double radius;
 };
-
+//Determining whether they hit or not
 bool sphere::hit(const ray& r, double t_min, double t_max, hit_record& rec) const {
     double oc = r.origin() - center;
     double a = r.direction().length_squared();

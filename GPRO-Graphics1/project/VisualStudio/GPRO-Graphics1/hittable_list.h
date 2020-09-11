@@ -9,15 +9,14 @@
 
 #ifndef HITTABLE_LIST_H
 #define HITTABLE_LIST_H
-
+//includes
 #include "hittable.h"
-
 #include <memory>
 #include <vector>
-
+//Usings
 using std::shared_ptr;
 using std::make_shared;
-
+//Creating list of objects that the rays can hit
 class hittable_list : public hittable {
 public:
     hittable_list() {}

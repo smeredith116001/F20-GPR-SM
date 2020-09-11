@@ -9,9 +9,9 @@
 
 #ifndef RAY_H
 #define RAY_H
-
+//includes
 #include "vec3.h"
-
+//Ray Class for independent rays
 class ray {
 public:
     ray() {}
