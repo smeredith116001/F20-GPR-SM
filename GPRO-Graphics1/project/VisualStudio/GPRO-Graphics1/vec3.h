@@ -1,3 +1,11 @@
+/*
+    sphere.h
+    Code sourced from Ray Tracing in One Weekend Peter Shirley
+    edited by Steve Hollasch and Trevor David Black
+
+    Modified by: Khalil Lyons
+*/
+
 #ifndef VEC3_H
 #define VEC3_H
 //includes

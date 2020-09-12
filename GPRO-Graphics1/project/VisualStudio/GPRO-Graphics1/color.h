@@ -3,8 +3,7 @@
 	Code sourced from Ray Tracing in One Weekend Peter Shirley
 	edited by Steve Hollasch and Trevor David Black
 
-	Modified by: ____________
-	Modified because: ____________
+	Modified by: Sebastian Meredith
 */
 
 #ifndef COLOR_H

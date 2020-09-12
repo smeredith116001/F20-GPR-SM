@@ -18,8 +18,7 @@
 	GPRO-Graphics1.c/.cpp
 	Main source file for GPRO-Graphics1 library.
 
-	Modified by: ____________
-	Modified because: ____________
+	Modified by: Sebastian Meredith and Khalil Lyons
 */
 //includes
 #include "rtweekend.h"
